@@ -8,6 +8,7 @@ body {
     line-height: 1.7;
     p{color: #f3f1f1;}
     
+    
 
        
 }
@@ -44,11 +45,13 @@ main img {
 footer {
     background-color: #0db40d;
     color: rgb(19, 6, 6);
-    text-align: right;
-    padding: 3px;
+    text-align: center;
+    padding: 1px;
     position: fixed;
-    bottom: 30;
-    width: 50;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.5em;
+    
 }
 p {
     font-size: 1.0em;
