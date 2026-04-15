@@ -16,6 +16,7 @@ body {
 
 header h1 {
     margin: 3;
+    display: block;
     
 }
 
@@ -34,14 +35,25 @@ main {
     padding: 12px;
     max-width: 1200px;
     margin: 0 auto;
+    .container {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
 }
-
+.container {
+    display: flex;
+    
+    
+}
 main img {
     max-width: 4;
     height: auto;
     display: flex;
     margin: 0px ;
+    
 }
+
 footer {
     background-color: #0db40d;
     color: rgb(19, 6, 6);
@@ -68,8 +80,10 @@ a:hover {
 img {
     border: 4px solid #21cb21dc;
     border-radius: 23px;
+    
 }
 main a[href^="mailto:"] {
     color: #fbfdfbc7;
     font-weight: bold;
 }
+
