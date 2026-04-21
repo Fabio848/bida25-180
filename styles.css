@@ -46,13 +46,6 @@ main {
     
     
 }
-main img {
-    max-width: 4;
-    height: auto;
-    display: flex;
-    margin: 0px ;
-    
-}
 
 footer {
     background-color: #0db40d;
