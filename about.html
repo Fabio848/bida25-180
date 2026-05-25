@@ -45,37 +45,40 @@
 
 
     <main>
-         <div class="float-up">
+        
+         
          <h2>About BTC</h2> 
-        <main class="container my-5">
-            <div>
-            <img src="call.webp">
-            <P>We offer airtime services for our customers to be able to get in contact with anyone around the world</P>
-            </div>
-            <div>
-            <img src="istockphoto-530162369-170667a.jpg">
-            <P>Our call centre is always on the clock 24/7 to help with any inquiries our clients might have about any of our sevices at BTC</P>
-            </div>
-            <div>
-            <img src="router.webp">
-            <p>With BTC you have access to our router services which offer premium 5G internet connection for our monthly subscription plans<P>
-            </div>
-            </p>
-            <div>
-            <img src="card.webp">
-            <P>BTC offers mobile banking services as well. These are known as SMEGA which allow users to send money or recieve money via mobile. We also have a VISA bank card which allows for withdrawals from any bank of your choice</P>
-
-    </div>
-     
+          <div class="about-section">
+        <div class="container my-5">
+            <div class="Slideshow ">
+            <img id="slide" src="call.webp" alt="Slideshow image" height="300px" >
+            
+                <style>
+                    p{
+                        display: block;
+                    }
+                </style>
+            
+            <P>BTC offers Airtime services for calls with your loved ones</P>
+            <P>We also offer online money services and our Smega bank card</P>
+            <P>Our customer service is on dial 24hrs for inquiries</P>
+            <P>Our routers provide 5G internet</P>
+            
+            
 </main>
 
 
     <footer>
         <p>&copy; 2026 BTC. All rights reserved.</p>
     </footer>
-    <!-- Bootstrap JS and dependencies -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
+
+<script>
+let images = ["call.webp", "istockphoto-530162369-170667a.jpg", "router.webp", "card.webp"];
+let index = 0;
+setInterval(() => {
+    index = (index + 1) % images.length;
+    document.getElementById("slide").src = images[index];}, 3000);
+</script>
 </body>
 </html>
