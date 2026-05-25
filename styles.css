@@ -1,5 +1,4 @@
 body {
-
     font-family: fantasy;
     color: #17b817de;
     background-color: #3cb812;
@@ -8,6 +7,7 @@ body {
     padding: 24;
     line-height: 1.7;
     p{color: #f3f1f1;}
+    
     
     
     
@@ -57,9 +57,14 @@ main {
 .container {
     display: flex;
     width: 100%;
-    
-    
 }
+    
+    @media (max-width: 768px) {
+        .card{
+            flex-direction: column;
+        }
+    }
+
 
 footer {
     background-color: #0db40d;
