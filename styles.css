@@ -3,7 +3,7 @@ body {
     color: #17b817de;
     background-color: #3cb812;
     background-image: url(OIP\ \(3\).webp);
-    margin: 12;
+    margin: 23px;
     padding: 24;
     line-height: 1.7;
     p{color: #f3f1f1;}
@@ -63,6 +63,7 @@ main {
     @media (max-width: 768px) {
         .container{
             display: block;
+            flex-direction: column;
         }
             
         }
